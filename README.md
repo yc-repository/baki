@@ -19,9 +19,13 @@ FEATURES:
 * Cut / copy / cropping
 * Bulk replace characters (Ctrl + R)
 * Resizing file (Ctrl + S)
-* Adding picture from file (Ctrl + W)
+* Adding picture from .txt file (Ctrl + W)
 * Saving to JPG (Ctrl + D)
 * GIF animation!
+* Erase whole string
+* Move columns up/down
+* Move whole image AT CURSOR POSITION left/right
+* Move whole image AT CURSOR POSITION top/down
 * ... and more editing tools
 
 ANIMATION HOW-TO:
