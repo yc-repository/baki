@@ -1,11 +1,13 @@
-BAKI is a cli ascii editor for windows and other platforms made in python.
+BAKI is an old-school ascii editor for windows powershell and other platforms made in python.
 
 INSTALLATION:
 
 * Install python 3.11+ and run "python baki.py".
-* Run "python baki.py -h" for help and keyboard commands.
 
-* If you got errors on dependencies, install all the libraries (at the top of the file), like this: "pip install shutil"
+HOW TO RUN:
+
+* Run "python baki.py -h" for help and keyboard commands.
+If you got errors on dependencies, install all the libraries ("import" at the top of the file), like this: "pip install shutil"
 
 HOW TO USE:
 
