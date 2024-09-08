@@ -16,9 +16,9 @@ HOW TO USE:
 
 FEATURES:
 
-* Selection
-* Horizontal / vertical flipping
-* Cut / copy / cropping
+* Selection (Ctrl + Q)
+* Horizontal / vertical flipping the selection
+* Cut / copy / cropping the selection
 * Bulk replace characters (Ctrl + R)
 * Resizing file (Ctrl + S)
 * Adding picture from .txt file (Ctrl + W)
@@ -28,13 +28,16 @@ FEATURES:
 * Move columns up/down
 * Move whole image AT CURSOR POSITION left/right
 * Move whole image AT CURSOR POSITION top/down
+* Shift mode 1: move characters in a row with space/backspace from current position
+* Shift mode 2: move characters in a row with space/backspace from current position till the first space
+* Eyedropper (Space / Ctrl + X)
 * ... and more editing tools
 
 ANIMATION HOW-TO:
 
-* Run "python baki.py -a list.txt", where list.txt is a list of txt files (frames)
-* TEXT PRINT ANIMATION run "python baki.py -at text.txt -c 5", where 'text.txt' is a file with your short text.
-* MARQUEE ANIMATION: run "python baki.py -atm 'your phrase for a running string'"
+* Run "python baki.py -a list.txt", where list.txt is a list of txt files (frames). Wait till each frame is rendered.
+* TEXT PRINT ANIMATION run "python baki.py -at text.txt -c 5", where 'text.txt' is a file with your short text. Wait.
+* MARQUEE ANIMATION: run "python baki.py -atm 'your phrase for a running string'". Wait.
 
 * !!!IMPORTANT!!! : to make it work properly - change symbol sizes depending on your terminal font size: CHANGE cw/ch variables at the top of the file. Default is 6/12.
 
