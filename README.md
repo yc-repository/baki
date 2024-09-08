@@ -5,6 +5,8 @@ INSTALLATION:
 * Install python 3.11+ and run "python baki.py".
 * Run "python baki.py -h" for help and keyboard commands.
 
+* If you got errors on dependencies, install all the libraries (at the top of the file), like this: "pip install shutil"
+
 HOW TO USE:
 
 * Run "python baki.py YOUR_FILENAME.txt" to open existing files.
