@@ -16,7 +16,7 @@ FEATURES:
 * Horizontal / vertical flipping
 * Cut / copy / cropping
 * Bulk replace characters (Ctrl + R)
-* Resizing file
+* Resizing file (Ctrl + S)
 * Adding picture from file (Ctrl + W)
 * Saving to JPG (Ctrl + D)
 * GIF animation!
@@ -27,6 +27,8 @@ ANIMATION HOW-TO:
 * Run "python baki.py -a list.txt", where list.txt is a list of txt files (frames)
 * TEXT PRINT ANIMATION run "python baki.py -at text.txt -c 5", where 'text.txt' is a file with your short text.
 * MARQUEE ANIMATION: run "python baki.py -atm 'your phrase for a running string'"
+
+* !!!IMPORTANT!!! : to make it work properly - change symbol sizes depending on your terminal font size: CHANGE cw/ch variables at the top of the file. Default is 6/12.
 
 result.gif is an output file.
 
